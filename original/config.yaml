@@ -1,11 +1,11 @@
 API:
-  LARGE_MODEL: meta-llama/Meta-Llama-3.1-70B-Instruct
-  LARGE_API_KEY: key-here
-  LARGE_BASE_URL: https://api.deepinfra.com/v1/openai
+  LARGE_MODEL: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-128K
+  LARGE_API_KEY: 
+  LARGE_BASE_URL: https://api.together.xyz/
   LARGE_MODE: api
-  SMALL_MODEL: meta-llama/Meta-Llama-3.1-8B-Instruct
-  SMALL_BASE_URL: https://api.deepinfra.com/v1/openai
-  SMALL_API_KEY: key-here
+  SMALL_MODEL: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-128K
+  SMALL_BASE_URL: https://api.together.xyz/
+  SMALL_API_KEY: 
   SMALL_MODE: api
 HUGGINGFACE:
   HUB_PATH: yourusername/your-path-here
@@ -28,7 +28,7 @@ SKIP:
 SYSTEM:
   CHUNK_SIZE: 1900
   COMPLETION_MODE: False
-  CONCURRENCY_LIMIT: 50
+  CONCURRENCY_LIMIT: 2
   CONVERSATION_INSTRUCTIONS: For this conversation, you are generating a chat between
     a generalist, generic AI assistant, and a human.
   DOUBLE_CHECK_COUNTER: 1
